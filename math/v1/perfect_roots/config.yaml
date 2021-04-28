@@ -1,0 +1,7 @@
+numbers:
+  number_of_roots: 2 # get squares and cubes
+  perfect_numbers_per_root: 100 # square and cube 1-10
+output:
+  file: "./output.json"
+  indent: 2 # JSON indent (None for no indent)
+print: "roots"

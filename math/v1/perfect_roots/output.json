@@ -1,0 +1,504 @@
+{
+  "2": {
+    "1": {
+      "number": 1,
+      "exponent": 2,
+      "ans": 1
+    },
+    "4": {
+      "number": 2,
+      "exponent": 2,
+      "ans": 4
+    },
+    "9": {
+      "number": 3,
+      "exponent": 2,
+      "ans": 9
+    },
+    "16": {
+      "number": 4,
+      "exponent": 2,
+      "ans": 16
+    },
+    "25": {
+      "number": 5,
+      "exponent": 2,
+      "ans": 25
+    },
+    "36": {
+      "number": 6,
+      "exponent": 2,
+      "ans": 36
+    },
+    "49": {
+      "number": 7,
+      "exponent": 2,
+      "ans": 49
+    },
+    "64": {
+      "number": 8,
+      "exponent": 2,
+      "ans": 64
+    },
+    "81": {
+      "number": 9,
+      "exponent": 2,
+      "ans": 81
+    },
+    "100": {
+      "number": 10,
+      "exponent": 2,
+      "ans": 100
+    },
+    "121": {
+      "number": 11,
+      "exponent": 2,
+      "ans": 121
+    },
+    "144": {
+      "number": 12,
+      "exponent": 2,
+      "ans": 144
+    },
+    "169": {
+      "number": 13,
+      "exponent": 2,
+      "ans": 169
+    },
+    "196": {
+      "number": 14,
+      "exponent": 2,
+      "ans": 196
+    },
+    "225": {
+      "number": 15,
+      "exponent": 2,
+      "ans": 225
+    },
+    "256": {
+      "number": 16,
+      "exponent": 2,
+      "ans": 256
+    },
+    "289": {
+      "number": 17,
+      "exponent": 2,
+      "ans": 289
+    },
+    "324": {
+      "number": 18,
+      "exponent": 2,
+      "ans": 324
+    },
+    "361": {
+      "number": 19,
+      "exponent": 2,
+      "ans": 361
+    },
+    "400": {
+      "number": 20,
+      "exponent": 2,
+      "ans": 400
+    },
+    "441": {
+      "number": 21,
+      "exponent": 2,
+      "ans": 441
+    },
+    "484": {
+      "number": 22,
+      "exponent": 2,
+      "ans": 484
+    },
+    "529": {
+      "number": 23,
+      "exponent": 2,
+      "ans": 529
+    },
+    "576": {
+      "number": 24,
+      "exponent": 2,
+      "ans": 576
+    },
+    "625": {
+      "number": 25,
+      "exponent": 2,
+      "ans": 625
+    },
+    "676": {
+      "number": 26,
+      "exponent": 2,
+      "ans": 676
+    },
+    "729": {
+      "number": 27,
+      "exponent": 2,
+      "ans": 729
+    },
+    "784": {
+      "number": 28,
+      "exponent": 2,
+      "ans": 784
+    },
+    "841": {
+      "number": 29,
+      "exponent": 2,
+      "ans": 841
+    },
+    "900": {
+      "number": 30,
+      "exponent": 2,
+      "ans": 900
+    },
+    "961": {
+      "number": 31,
+      "exponent": 2,
+      "ans": 961
+    },
+    "1024": {
+      "number": 32,
+      "exponent": 2,
+      "ans": 1024
+    },
+    "1089": {
+      "number": 33,
+      "exponent": 2,
+      "ans": 1089
+    },
+    "1156": {
+      "number": 34,
+      "exponent": 2,
+      "ans": 1156
+    },
+    "1225": {
+      "number": 35,
+      "exponent": 2,
+      "ans": 1225
+    },
+    "1296": {
+      "number": 36,
+      "exponent": 2,
+      "ans": 1296
+    },
+    "1369": {
+      "number": 37,
+      "exponent": 2,
+      "ans": 1369
+    },
+    "1444": {
+      "number": 38,
+      "exponent": 2,
+      "ans": 1444
+    },
+    "1521": {
+      "number": 39,
+      "exponent": 2,
+      "ans": 1521
+    },
+    "1600": {
+      "number": 40,
+      "exponent": 2,
+      "ans": 1600
+    },
+    "1681": {
+      "number": 41,
+      "exponent": 2,
+      "ans": 1681
+    },
+    "1764": {
+      "number": 42,
+      "exponent": 2,
+      "ans": 1764
+    },
+    "1849": {
+      "number": 43,
+      "exponent": 2,
+      "ans": 1849
+    },
+    "1936": {
+      "number": 44,
+      "exponent": 2,
+      "ans": 1936
+    },
+    "2025": {
+      "number": 45,
+      "exponent": 2,
+      "ans": 2025
+    },
+    "2116": {
+      "number": 46,
+      "exponent": 2,
+      "ans": 2116
+    },
+    "2209": {
+      "number": 47,
+      "exponent": 2,
+      "ans": 2209
+    },
+    "2304": {
+      "number": 48,
+      "exponent": 2,
+      "ans": 2304
+    },
+    "2401": {
+      "number": 49,
+      "exponent": 2,
+      "ans": 2401
+    },
+    "2500": {
+      "number": 50,
+      "exponent": 2,
+      "ans": 2500
+    },
+    "2601": {
+      "number": 51,
+      "exponent": 2,
+      "ans": 2601
+    },
+    "2704": {
+      "number": 52,
+      "exponent": 2,
+      "ans": 2704
+    },
+    "2809": {
+      "number": 53,
+      "exponent": 2,
+      "ans": 2809
+    },
+    "2916": {
+      "number": 54,
+      "exponent": 2,
+      "ans": 2916
+    },
+    "3025": {
+      "number": 55,
+      "exponent": 2,
+      "ans": 3025
+    },
+    "3136": {
+      "number": 56,
+      "exponent": 2,
+      "ans": 3136
+    },
+    "3249": {
+      "number": 57,
+      "exponent": 2,
+      "ans": 3249
+    },
+    "3364": {
+      "number": 58,
+      "exponent": 2,
+      "ans": 3364
+    },
+    "3481": {
+      "number": 59,
+      "exponent": 2,
+      "ans": 3481
+    },
+    "3600": {
+      "number": 60,
+      "exponent": 2,
+      "ans": 3600
+    },
+    "3721": {
+      "number": 61,
+      "exponent": 2,
+      "ans": 3721
+    },
+    "3844": {
+      "number": 62,
+      "exponent": 2,
+      "ans": 3844
+    },
+    "3969": {
+      "number": 63,
+      "exponent": 2,
+      "ans": 3969
+    },
+    "4096": {
+      "number": 64,
+      "exponent": 2,
+      "ans": 4096
+    },
+    "4225": {
+      "number": 65,
+      "exponent": 2,
+      "ans": 4225
+    },
+    "4356": {
+      "number": 66,
+      "exponent": 2,
+      "ans": 4356
+    },
+    "4489": {
+      "number": 67,
+      "exponent": 2,
+      "ans": 4489
+    },
+    "4624": {
+      "number": 68,
+      "exponent": 2,
+      "ans": 4624
+    },
+    "4761": {
+      "number": 69,
+      "exponent": 2,
+      "ans": 4761
+    },
+    "4900": {
+      "number": 70,
+      "exponent": 2,
+      "ans": 4900
+    },
+    "5041": {
+      "number": 71,
+      "exponent": 2,
+      "ans": 5041
+    },
+    "5184": {
+      "number": 72,
+      "exponent": 2,
+      "ans": 5184
+    },
+    "5329": {
+      "number": 73,
+      "exponent": 2,
+      "ans": 5329
+    },
+    "5476": {
+      "number": 74,
+      "exponent": 2,
+      "ans": 5476
+    },
+    "5625": {
+      "number": 75,
+      "exponent": 2,
+      "ans": 5625
+    },
+    "5776": {
+      "number": 76,
+      "exponent": 2,
+      "ans": 5776
+    },
+    "5929": {
+      "number": 77,
+      "exponent": 2,
+      "ans": 5929
+    },
+    "6084": {
+      "number": 78,
+      "exponent": 2,
+      "ans": 6084
+    },
+    "6241": {
+      "number": 79,
+      "exponent": 2,
+      "ans": 6241
+    },
+    "6400": {
+      "number": 80,
+      "exponent": 2,
+      "ans": 6400
+    },
+    "6561": {
+      "number": 81,
+      "exponent": 2,
+      "ans": 6561
+    },
+    "6724": {
+      "number": 82,
+      "exponent": 2,
+      "ans": 6724
+    },
+    "6889": {
+      "number": 83,
+      "exponent": 2,
+      "ans": 6889
+    },
+    "7056": {
+      "number": 84,
+      "exponent": 2,
+      "ans": 7056
+    },
+    "7225": {
+      "number": 85,
+      "exponent": 2,
+      "ans": 7225
+    },
+    "7396": {
+      "number": 86,
+      "exponent": 2,
+      "ans": 7396
+    },
+    "7569": {
+      "number": 87,
+      "exponent": 2,
+      "ans": 7569
+    },
+    "7744": {
+      "number": 88,
+      "exponent": 2,
+      "ans": 7744
+    },
+    "7921": {
+      "number": 89,
+      "exponent": 2,
+      "ans": 7921
+    },
+    "8100": {
+      "number": 90,
+      "exponent": 2,
+      "ans": 8100
+    },
+    "8281": {
+      "number": 91,
+      "exponent": 2,
+      "ans": 8281
+    },
+    "8464": {
+      "number": 92,
+      "exponent": 2,
+      "ans": 8464
+    },
+    "8649": {
+      "number": 93,
+      "exponent": 2,
+      "ans": 8649
+    },
+    "8836": {
+      "number": 94,
+      "exponent": 2,
+      "ans": 8836
+    },
+    "9025": {
+      "number": 95,
+      "exponent": 2,
+      "ans": 9025
+    },
+    "9216": {
+      "number": 96,
+      "exponent": 2,
+      "ans": 9216
+    },
+    "9409": {
+      "number": 97,
+      "exponent": 2,
+      "ans": 9409
+    },
+    "9604": {
+      "number": 98,
+      "exponent": 2,
+      "ans": 9604
+    },
+    "9801": {
+      "number": 99,
+      "exponent": 2,
+      "ans": 9801
+    },
+    "10000": {
+      "number": 100,
+      "exponent": 2,
+      "ans": 10000
+    }
+  }
+}
