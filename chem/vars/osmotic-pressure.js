@@ -1,5 +1,9 @@
-function osmoticPressure(m, t, t) {
-  throw Error("Not Implemented: osmoticPressure")
+// M = Molarity (mol/L)
+// r = R constant
+// t = temperature (in Kelvins)
+
+function osmoticPressure(M, r, t) {
+  return M*r*t
 }
 
 module.exports = osmoticPressure

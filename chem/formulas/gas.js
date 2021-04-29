@@ -7,7 +7,7 @@ PV = nRT
 P = pressure
 V = volume
 n = moles
-R = constant (see contants.r)
+R = constant (see vars.contants.R)
 T = temperature
 
 
@@ -16,7 +16,7 @@ PV = mRT / (MW)
 P = pressure
 V = volume
 m = mass
-R = constant (see contants.r)
+R = constant (see vars.contants.R)
 T = temperature
 MW = molecular weight
 
@@ -33,7 +33,7 @@ d = P(MW) / RT
 d = density
 P = pressure
 MW = molecular weight
-R = constant (see vars.constants.r)
+R = constant (see vars.constants.R)
 T = temperature
 
 // Combined Gas
@@ -56,9 +56,9 @@ const nRT = {
 // PV = mRT / (MW)
 const mRTmw = {
   // V = ( mRT / (MW) ) / P
-  v: (p, mw, m, r, t) => (m * r * t) / mw / p,
+  v: (p, mw, m, r, t) => ( (m * r * t) / mw ) / p,
   // P = ( mRT / (MW) ) / V
-  p: (v, mw, m, r, t) => (m * r * t) / mw / v,
+  p: (v, mw, m, r, t) => ( (m * r * t) / mw ) / v,
 }
 
 // d = P(MW) / RT
