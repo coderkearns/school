@@ -2,14 +2,6 @@
 
 u_rms = √( 3*R*T / mw )
 
-// Mole Fraction
-moleFraction = molesSolute / molTotal
-
-// Molality
-m = molSolute / kgSolute
-
-// Molarity
-M = molSolute / literSolution
 */
 
 const sqrt = require("../util/sqrt")
@@ -21,4 +13,4 @@ function u(t, mw) {
 }
 
 
-module.exports = u // (r, t, mw)
+module.exports = u // (t, mw)
