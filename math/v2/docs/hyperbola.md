@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
 
-doc = """
 ## Hyperbola
 
 A hyperbola is the set of all points in a plane equidistant from the foci. Each branch of the hyperbola contains a vertex point, and the curve wraps around a focus point within boundaries known as asymptotes. Both the vertex points and the foci lie on an axis of symmetry which contains a segment between the vertex points known as the transverse axis. There is another axis of symmetry perpendicular to the transverse axis that contains a segment referred to as the conjugate axis. The center of the hyperbola is the intersection point of these two axes.
@@ -35,22 +33,3 @@ c^2 = a^2 + b^2
 | Vertices | `(h - a, k)` and `(h + a, k)` | `(h, k - a)` and `(h, k + a)` |
 | Slopes of Asymptotes | `b / a` and `-b / a` | `a / b` and `-a / b`
 
-"""
-__doc__ = doc
-
-class Hyperbola():
-    __doc__ = doc
-
-    def __init__(self):
-        self.name = name
-
-    def hi(self, greeting="Hello, ", puctuation="!"):
-        return greeting + self.name + puctuation
-
-
-def main(a, b, c):
-    pass
-
-if __name__ == '__main__':
-    from util import get_vars
-    main(**get_vars({}))

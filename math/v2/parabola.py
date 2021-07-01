@@ -16,7 +16,7 @@ from point import Point
 
 def jsoncls(o):
     if hasattr(o, "json"):
-        return o.json()
+        return o.__json__()
     return o.__dict__
 
 ParabolaException = newerror("ParabolaException")

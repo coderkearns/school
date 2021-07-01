@@ -11,8 +11,8 @@ Every ellipse has two axes of symmetry. The parts of the axes of symmetry which 
 ### Class
 
 `::__init__`
-- `major_axis_1`: the start of th major axis, in the form of a Point
-- `major_axis_2`: the end of th major axis, in the form of a Point
+- `major_axis_1`: the start of the major axis, in the form of a Point
+- `major_axis_2`: the end of the major axis, in the form of a Point
 - `focus_point_1`: one of the focus points, a Point
 - `focus_point_2`: the other focus point, a Point
 - `center`: the center of the ellipse, a Point
@@ -25,7 +25,7 @@ Every ellipse has two axes of symmetry. The parts of the axes of symmetry which 
 
 `.c`: Half the distance between the focus points
 
-`.b`: The square root of `a^2 -  c^2`
+`.b`: The square root of `a^2 -  c^2`, and the distance bewteen the center and the foci
 
 `.type`: Returns "horizontal" or "vertical"
 

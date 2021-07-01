@@ -18,10 +18,11 @@ k = 1 / M^(totalM - 1) * s
 const sqrt = require("../util/sqrt")
 
 function k(totalM) {
-  m = totalM - 1
-  if (m === 0) return `1/s`
-  if (m === 1) return `1/M*s`
-  return `1/(M^${m} * s)`
+  if (isNaN(totalM)) return NaN
+  if (totalM === 0) return `Ms^-1`
+  if ((totalM - 1) === 0) return `s^-1`
+  if ((totalM - 1) === 1) return `M^-1s^-1`
+  return `M^-${(totalM - 1)}s^-1`
 }
 
 function concentration(rate, k) {

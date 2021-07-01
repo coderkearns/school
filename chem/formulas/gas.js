@@ -51,14 +51,18 @@ const nRT = {
   v: (p, n, r, t) => (n * r * t) / p,
   // P = nRT / V
   p: (v, n, r, t) => (n * r * t) / v,
+  // T = PV / nR
+  t: (p, v, n, r) => (p * v) / (n * r),
 }
 
 // PV = mRT / (MW)
 const mRTmw = {
-  // V = ( mRT / (MW) ) / P
-  v: (p, mw, m, r, t) => ( (m * r * t) / mw ) / p,
-  // P = ( mRT / (MW) ) / V
-  p: (v, mw, m, r, t) => ( (m * r * t) / mw ) / v,
+  // V = mRT / (MW)P
+  v: (p, mw, m, r, t) => (m * r * t) / mw / p,
+  // P = mRT / (MW)V
+  p: (v, mw, m, r, t) => (m * r * t) / mw / v,
+  // m = PV(MW) / RT
+  m: (p, v, mw, r, t) => (p * v * mw) / (r * t),
 }
 
 // d = P(MW) / RT
@@ -72,10 +76,13 @@ const combinedGas = {
   // newV = oldV * ( Pold / Pnew ) * ( Tnew / Told )
   v: (v, op, np, ot, nt) => v * (op / np) * (nt / ot),
   // newP = oldP * ( Vold / Vnew ) * ( Tnew / Told )
-  p: (p, ov, nv, nt, ot) => p * (ov / nv) * (nt / ot),
+  p: (p, ov, nv, ot, nt) => p * (ov / nv) * (nt / ot),
   // newT = oldT * ( Vold / Vnew ) * ( Pold / Pnew )
   t: (t, ov, nv, op, np) => t * (ov / np) * (op / np),
 }
+
+// newV = oldV * ( (totalP - waterP) / standardP )
+const v_VPwPstdP = (v, p, wP, stdP) => v * ((p - wP) / stdP)
 
 module.exports = {
   nRT,
@@ -99,4 +106,7 @@ module.exports = {
   // v(v, op, np, ot, nt)
   // p(p, ov, nv, nt, ot)
   // t(t, ov, nv, op, np)
+
+  v_VPwPstdP,
+  // (v, p, wp, stdP)
 }

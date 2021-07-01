@@ -25,7 +25,7 @@ class Point():
     def __repr__(self):
         return f"Point({self.x}, {self.y})"
 
-    def json(self):
+    def __json__(self):
         return f"({self.x}, {self.y})"
 
     # Distance between two points
@@ -56,6 +56,21 @@ class Point():
 
     def as_list(self):
         return [self.x, self.y]
+
+    @classmethod
+    def toPoint(cls, *args, **kwargs):
+        if "x" in kwargs.keys() and "y" in kwargs.keys():
+            return Point(kwargs["x"], kwargs["y"])
+        if len(args) > 1:
+            return Point(args[0], args[1])
+        if len(args) == 0:
+            return Point(0, 0)
+        item = args[0]
+        if isinstance(item, Point):
+            return item
+        if type(item) == dict:
+            return Point(item["x"], item["y"])
+        return Point(item[0], item[1])
 
 
 def toPoint(*args, **kwargs):

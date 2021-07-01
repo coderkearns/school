@@ -8,6 +8,9 @@ ignores = ["mkdocs.py", "util.py", "template.py"]
 path = "."
 files = [f for f in listdir(path) if isfile(join(path, f))]
 
+def transform(md):
+    return md
+
 docs = []
 
 docfiles = {}
@@ -17,8 +20,10 @@ for file in files:
 
     module = imp(file.replace(".py", ""))
 
-    docs += [module.doc]
-    docfiles[file] = module.doc
+    doc = transform(module.doc)
+
+    docs += [doc]
+    docfiles[file] = doc
 
 # Full Docs:
 docs = "\n---\n\n".join(docs)

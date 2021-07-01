@@ -1,9 +1,8 @@
-
 const pressureUnits = {
   1: "atm",
   2: "mmHg",
   3: "torr",
-  4: "kPa"
+  4: "kPa",
 }
 
 const R = {
@@ -11,9 +10,14 @@ const R = {
   mmHg: 62.4,
   torr: 62.4,
   kPa: 8.31,
-  get (type) {
-    type = type.toLowerCase().replaceAll("-", "").replaceAll("_", "").replaceAll(" ", "")
-    switch (type) {
+  get(type) {
+    switch (
+      type
+        .toLowerCase()
+        .replaceAll("-", "")
+        .replaceAll("_", "")
+        .replaceAll(" ", "")
+    ) {
       case "atm":
         return this.atm
       case "mmhg":
@@ -26,7 +30,7 @@ const R = {
         console.log(`Can't use ${type} as R constant, using atm by default...`)
         return this.atm
     }
-  }
+  },
 }
 
 const PI = 3.14 // or Math.PI

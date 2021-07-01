@@ -18,18 +18,23 @@ EX: strip_float(9.273) -> float(9.273)
 
 #strip_all(*args, iter=False) -> list[ [int or float] ]
 Runs strip_float on each args, or on each item of iter if provided.
-EX: strip_all(3.0,7,9.00) -> (3, 7, 9)
+EX: strip_all(3.0,7,9.02) -> (3, 7, 9.02)
 
-#new_error(name) -> class (extending Exception)
+#newerror(name) -> class (extending Exception)
 Creates a new Exception class
-EX: NameException = new_error("NameException")
+EX: NameException = newerror("NameException")
 """
+from sys import exit as _exit
 
 
 def get_vars(var_dict):
     vars = {}
-    for var, vartype in var_dict.items():
-        vars = {**vars, **{var: vartype(input(f"{var}=? "))}}
+    try:
+        for var, vartype in var_dict.items():
+            vars = {**vars, **{var: vartype(input(f"{var}=? "))}}
+    except KeyboardInterrupt as e:
+        print("\b\b  ")
+        _exit()
     return vars
 
 
